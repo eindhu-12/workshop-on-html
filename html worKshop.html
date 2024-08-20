@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Shop</title>
+    <style>
+        h4{
+            background-color: aqua;
+        }
+        h1{
+            background-color: brown;
+        }
+        .git{
+            background-color:cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <h1><center>HTML Question and Answers</center></h1>
+    <h4>1.What is the difference between Div and Span tag ?</h4>
+    <p>Span and div are both generic HTML elements that group together related parts of a web page. However, they serve different functions. A div element is used for block-level organization and styling of page elements, whereas a span element is used for inline organization and styling.</p>
+    <h4>2.What are the Semantic elements in HTML ?</h4>
+    <ol>
+        <li>article</li>
+        <li>aside</li>
+        <li>details</li>
+        <li>figcaption</li>
+        <li>figure</li>
+        <li>footer</li>
+        <li>header</li>
+        <li>main</li>
+        <li>mark</li>
+        <li>nav</li>
+        <li>section</li>
+        <li>summary</li>
+        <li>time</li>
+    </ol>
+    <h4>3.What are the differences between href and src attributes ?</h4>
+    <table border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th>href attribute</th>
+                <th>src attribute</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+               <td>Hypertext Reference</td>
+               <td>Source</td>
+            </tr>
+            <tr>
+               <td>&lt;a href="https://www.example.com">Visit Example Website&gt;</a</td>
+               <td>&lt;img src="image.jpg" alt="Description"&gt;</td>
+            </tr>
+            <tr>
+                <td>Used to link to external resources, like stylesheets, web pages, or anchor links within a document.</td>
+                <td>Used to embed external resources like images, scripts, or iframes into the document.</td>
+            </tr>
+            <tr>
+                <td>Function:Points to a resource that is not necessarily embedded within the document but can be navigated to or linked</td>
+                <td>Function:Points to a resource that is embedded directly within the document and is required to load that resource.</td>
+            </tr>
+            <tr>
+                <td>Impact on Rendering:Does not directly affect the loading or rendering of the element itself, except for anchor tags which can </td>
+                <td>Impact on Rendering:Affects the loading and rendering of the element it is used in; the element will not display correctly until the resource is loaded.</td>
+            </tr>
+        </tbody>
+    </table>
+    <h4>4.what are differences between XML and HTML ?</h4>
+    <table border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Feature</th>
+                <th>XML (Extensible Markup Language)</th>
+                <th>HTML (Hypertext Markup Language)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Purpose</td>
+                <td>Designed to store and transport data, focusing on what the data is.</td>
+                <td>Designed to display data, focusing on how the data looks.</td>
+            </tr>
+            <tr>
+                <td>Data Representation</td>
+                <td>Self-descriptive language used to define custom tags and structure data.</td>
+                <td>Predefined tags used to display content on web pages.</td>
+            </tr>
+            <tr>
+                <td>Tag Definitions</td>
+                <td>User-defined tags; tags are not predefined and must be defined by the user.</td>
+                <td>Predefined tags like div, p, a, etc., used for specific purposes.</td>
+            </tr>
+            <tr>
+                <td>Syntax Rules</td>
+                <td>Strict syntax rules; every opening tag must have a corresponding closing tag, and tags are case-sensitive.</td>
+                <td>More lenient syntax rules; some tags are self-closing, and tags are not case-sensitive.</td>
+            </tr>
+            <tr>
+                <td>Structure</td>
+                <td>Hierarchical structure, often used for data interchange and storage.</td>
+                <td>Document structure designed for presentation, includes elements like head, body, etc.</td>
+            </tr>
+            <tr>
+                <td>Use Cases</td>
+                <td>Data storage, configuration files, data interchange between systems (e.g., RSS feeds, SOAP messages).</td>
+                <td>Creating and structuring web pages, linking documents, displaying content in a browser.</td>
+            </tr>
+        </tbody>
+    </table>
+    <h4>5.What are the list tags and how many are they ?</h4>
+    <p>List tags are:</p>
+    <ol>
+        <li>&lt;ul&gt;</li>
+        <li>&lt;ol&gt;</li>
+        <li>&lt;li&gt;</li>
+        <li>&lt;dl&gt;</li>
+        <li>&lt;dd&gt;</li>
+        <li>&lt;dt&gt;</li>
+    </ol>
+    <p>List tsgd are three types . They are:</p>
+    <ol>
+        <li>&lt;ol&gt;</li>
+        <li>&lt;ul&gt;</li>
+        <li>&lt;dl&gt;</li>
+    </ol>
+    <h4>6.Create a iframe where a single iframe can opens multiple links in it ?</h4>
+    <img src="./iframe-1.jpg" alt="single iframe  opens multiple links">
+    <h4>7.Create a register form using name,email,age privacy policies and submit and do validation?</h4>
+    <a href="./register form.html" target="_blank">Register Form</a>
+
+
+
+
+    <h1>
+        <center>Git Commands</center>
+    </h1>
+    <h4 class="git">1.what is command for connecting local repo and github repo?</h4>
+    <pre>
+        - git init 
+        - git add . 
+        - git commit -m
+        - git remote add origin path
+        - git branch -M main
+        - git push origin main
+    </pre>
+
+    <h4 class="git">2.What is the git command to change the directory of local folder?</h4>
+    <p>cd folder name</p>
+
+    <h4 class="git">3.What is the git command to check the commits on the project?</h4>
+    <p>git status</p>
+
+    <h4 class="git">4.What is the git command for pushing all the code to ravi branch?</h4>
+    <pre>
+        - git branch ravi
+        - git checkout ravi
+        - git add . 
+        - git commit -m
+        - git push origin main
+    </pre>
+
+    <h4 class="git">5.What is the difference b/w the pull and push commands in git?</h4>
+    <p>The git pull command retrieves and merges changes from a remote repository into your local branch, while the 
+        git push command uploads your local commits to update the corresponding branch in a remote repository.</p>
+
+    <h4 class="git">6.command to check the no of branchs and command to switch the branch</h4>
+    <p>git branch</p>
+    <h4 class="git">7.what are the stages of our our project to reach to github?</h4>
+    <p>There are three stages to reach the project to git hub. they are:</p>
+    <ol>
+        <li>Working Stage</li>
+        <li>Staging Stage</li>
+        <li>Remote area</li>
+    </ol>
+    <p>Commands Used</p>
+    <ul>
+        <li>git init</li>
+        <li>git add .</li>
+        <li>git commit -m</li>
+        <li>git remote add origin path</li>
+        <li>git branch -M main</li>
+        <li>git push origin main</li>
+    </ul>
+
+    <h4 class="git">8.the commands which we use in staging area</h4>
+    <p>git add .</p>
+
+
+
+</body>
+</html>
